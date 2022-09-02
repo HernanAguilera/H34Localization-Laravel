@@ -1,0 +1,28 @@
+{
+    "name": "h34/localization",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "illuminate/support": "9.*.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "H34\\Localization\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "H34\\Core\\CoreServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Hernan Aguilera",
+            "email": "haguilera@protonmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
